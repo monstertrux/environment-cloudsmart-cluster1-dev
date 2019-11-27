@@ -1,34 +1,85 @@
+autoUpdate:
+  enabled: false
+  schedule: ""
+bootConfigURL: https://github.com/jenkins-x/jenkins-x-boot-config.git
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
-  project: ""
+  azure: {}
+  clusterName: cloudsmart-cluster1
+  environmentGitOwner: cloudsmartio
+  gitKind: github
+  gitName: github
+  gitServer: https://github.com
+  namespace: jx
+  project: cloudsmart-ci-26111902
   provider: gke
-  zone: ""
-gitops: true
+  registry: gcr.io
+  vaultName: jx-vault-26111902
+  zone: us-central1-a
 environments:
-- key: dev
-- key: staging
-- key: production
+- ingress:
+    domain: ci.cloudsmart.io
+    externalDNS: true
+    namespaceSubDomain: -jx.
+    tls:
+      email: ali@isp20.com
+      enabled: true
+      production: true
+  key: dev
+- ingress:
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: staging
+- ingress:
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: production
+- ingress:
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
 ingress:
-  domain: ""
-  externalDNS: false
+  cloud_dns_secret_name: external-dns-gcp-sa
+  domain: ci.cloudsmart.io
+  externalDNS: true
+  namespaceSubDomain: -jx.
   tls:
-    email: ""
-    enabled: false
-    production: false
+    email: ali@isp20.com
+    enabled: true
+    production: true
 kaniko: true
-secretStorage: local
+repository: nexus
+secretStorage: vault
 storage:
+  backup:
+    enabled: false
+    url: ""
   logs:
-    enabled: false
-    url: ""
+    enabled: true
+    url: gs://cloudsmart-cluster1-logs-54775be7-f553-4dfb-aaac-2f26db
   reports:
-    enabled: false
-    url: ""
+    enabled: true
+    url: gs://cloudsmart-cluster1-reports-64b88b1c-59fc-4fa0-9e83-af7
   repository:
-    enabled: false
-    url: ""
+    enabled: true
+    url: gs://cloudsmart-cluster1-repository-7215bcec-6de3-44d7-9802
+vault:
+  name: jx-vault-26111902
+velero: {}
 versionStream:
-  ref: "master"
+  ref: v1.0.221
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
