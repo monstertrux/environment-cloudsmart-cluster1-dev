@@ -10,10 +10,10 @@ cluster:
   gitName: github
   gitServer: https://github.com
   namespace: jx
-  project: cloudsmart-ci-26111902
+  project: cloudsmart-ci-10121901
   provider: gke
   registry: gcr.io
-  vaultName: jx-vault-26111902
+  vaultName: jx-vault-cloudsmart-ci-10121901
   zone: us-central1-a
 environments:
 - ingress:
@@ -69,15 +69,15 @@ storage:
     url: ""
   logs:
     enabled: true
-    url: gs://cloudsmart-cluster1-logs-54775be7-f553-4dfb-aaac-2f26db
+    url: ""
   reports:
     enabled: true
-    url: gs://cloudsmart-cluster1-reports-64b88b1c-59fc-4fa0-9e83-af7
+    url: ""
   repository:
     enabled: true
-    url: gs://cloudsmart-cluster1-repository-7215bcec-6de3-44d7-9802
+    url: ""
 vault:
-  name: jx-vault-26111902
+  name: jx-vault-cloudsmart-ci-10121901
 velero: {}
 versionStream:
   ref: v1.0.221
