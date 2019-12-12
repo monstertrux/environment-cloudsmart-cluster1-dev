@@ -69,13 +69,13 @@ storage:
     url: ""
   logs:
     enabled: true
-    url: ""
+    url: gs://cloudsmart-cluster1-logs-e28a5ef8-ff43-480e-85e6-28fd81
   reports:
     enabled: true
-    url: ""
+    url: gs://cloudsmart-cluster1-reports-c9c39898-f15c-437f-a296-687
   repository:
     enabled: true
-    url: ""
+    url: gs://cloudsmart-cluster1-repository-16fe01b4-d443-4e23-b9cb
 vault:
   name: jx-vault-cloudsmart-ci-10121901
 velero: {}

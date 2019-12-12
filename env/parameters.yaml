@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:cloudsmart-cluster1/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: github@cloudsmart.io
+  token: vault:cloudsmart-cluster1/pipelineUser:token
+  username: cloudsmartio
+prow:
+  hmacToken: vault:cloudsmart-cluster1/prow:hmacToken
