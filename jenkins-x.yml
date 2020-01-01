@@ -4,11 +4,13 @@ pipelineConfig:
     pullRequest:
       pipeline:
         agent:
-          image: gcr.io/jenkinsxio/builder-go
+          image: gcr.io/jenkinsxio/builder-go:2.0.1094-429
         stages:
         - name: pr-checks
           options:
             containerOptions:
+              name: ""
+              resources: {}
               volumeMounts:
               - mountPath: /builder/home/.jx/localSecrets/currentCluster
                 name: local-secrets
@@ -36,7 +38,7 @@ pipelineConfig:
     release:
       pipeline:
         agent:
-          image: gcr.io/jenkinsxio/builder-go
+          image: gcr.io/jenkinsxio/builder-go:2.0.1094-429
         environment:
         - name: DEPLOY_NAMESPACE
           value: jx
@@ -44,6 +46,8 @@ pipelineConfig:
         - name: release
           options:
             containerOptions:
+              name: ""
+              resources: {}
               volumeMounts:
               - mountPath: /builder/home/.jx/localSecrets/currentCluster
                 name: local-secrets
