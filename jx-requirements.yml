@@ -27,13 +27,13 @@ environments:
       production: true
   key: dev
 - ingress:
-    domain: ""
-    externalDNS: false
-    namespaceSubDomain: ""
+    domain: ci.cloudsmart.io
+    externalDNS: true
+    namespaceSubDomain: -jx-staging.
     tls:
-      email: ""
-      enabled: false
-      production: false
+      email: ali@isp20.com
+      enabled: true
+      production: true
   key: staging
 - ingress:
     domain: ""
