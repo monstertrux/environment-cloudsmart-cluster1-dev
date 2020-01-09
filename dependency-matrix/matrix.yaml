@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: cloudsmartio
+  repo: dex-client-poc
+  url: https://github.com/cloudsmartio/dex-client-poc.git
+  version: ""
+  versionURL: ""
