@@ -1,4 +1,3 @@
-buildPack: none
 pipelineConfig:
   pipelines:
     pullRequest:
@@ -50,4 +49,4 @@ pipelineConfig:
                 command: make verify-fmt
               - name: run-bdd
                 command: bdd/bdd.sh
-                args: ['bdd/boot-local', 'bdd-config']
+                args: ['bdd/boot-vault', 'bdd-config']
