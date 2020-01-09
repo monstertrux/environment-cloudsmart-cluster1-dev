@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cloudsmartio
+    provider: github
+    repository: dex-client-poc
+  name: cloudsmartio-dex-client-poc
+spec:
+  description: Imported application for cloudsmartio/dex-client-poc
+  httpCloneURL: https://github.com/cloudsmartio/dex-client-poc.git
+  org: cloudsmartio
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: dex-client-poc
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cloudsmartio/dex-client-poc.git
