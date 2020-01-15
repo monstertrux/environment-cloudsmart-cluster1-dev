@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/cloudsmartio/dex-client-poc.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: cloudsmartio
+  repo: application-root
+  url: https://github.com/cloudsmartio/application-root.git
+  version: ""
+  versionURL: ""

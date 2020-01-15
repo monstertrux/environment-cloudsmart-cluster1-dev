@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cloudsmartio
+    provider: github
+    repository: application-root
+  name: cloudsmartio-application-root
+spec:
+  description: Imported application for cloudsmartio/application-root
+  httpCloneURL: https://github.com/cloudsmartio/application-root.git
+  org: cloudsmartio
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: application-root
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cloudsmartio/application-root.git
