@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cloudsmartio
+    provider: github
+    repository: agile-project-manager
+  name: cloudsmartio-agile-project-manager
+spec:
+  description: Imported application for cloudsmartio/agile-project-manager
+  httpCloneURL: https://github.com/cloudsmartio/agile-project-manager.git
+  org: cloudsmartio
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: agile-project-manager
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cloudsmartio/agile-project-manager.git
