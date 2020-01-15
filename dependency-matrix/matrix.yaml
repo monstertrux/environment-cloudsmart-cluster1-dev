@@ -11,3 +11,9 @@ dependencies:
   url: https://github.com/cloudsmartio/application-root.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: cloudsmartio
+  repo: agile-project-manager
+  url: https://github.com/cloudsmartio/agile-project-manager.git
+  version: ""
+  versionURL: ""
