@@ -5,6 +5,9 @@ bootConfigURL: https://github.com/jenkins-x/jenkins-x-boot-config.git
 cluster:
   azure: {}
   clusterName: cloudsmart-cluster1
+  devEnvApprovers:
+  - awaddell
+  - cloudsmartio
   environmentGitOwner: cloudsmartio
   gitKind: github
   gitName: github
@@ -74,6 +77,8 @@ vault:
   name: jx-vault-cloudsmart-ci-10121901
 velero:
   namespace: velero
+  schedule: ""
+  ttl: ""
 versionStream:
   ref: v1.0.306
   url: https://github.com/jenkins-x/jenkins-x-versions.git
