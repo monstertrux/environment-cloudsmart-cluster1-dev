@@ -62,7 +62,7 @@ repository: nexus
 secretStorage: vault
 storage:
   backup:
-    enabled: false
+    enabled: true
     url: ""
   logs:
     enabled: true
