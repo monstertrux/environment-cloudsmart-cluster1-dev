@@ -63,7 +63,7 @@ secretStorage: vault
 storage:
   backup:
     enabled: true
-    url: ""
+    url: gs://cloudsmart-cluster1-repository-velero-backups
   logs:
     enabled: true
     url: gs://cloudsmart-cluster1-logs-e28a5ef8-ff43-480e-85e6-28fd81
@@ -76,7 +76,8 @@ storage:
 vault:
   name: jx-vault-cloudsmart-ci-10121901
 velero:
-  schedule: ""
+  namespace: velero
+  schedule: 0 8 * * *
   ttl: ""
 versionStream:
   ref: v1.0.306
