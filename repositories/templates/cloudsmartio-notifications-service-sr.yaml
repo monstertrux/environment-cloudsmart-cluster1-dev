@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cloudsmartio
+    provider: github
+    repository: notifications-service
+  name: cloudsmartio-notifications-service
+spec:
+  description: Imported application for cloudsmartio/notifications-service
+  httpCloneURL: https://github.com/cloudsmartio/notifications-service.git
+  org: cloudsmartio
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: notifications-service
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cloudsmartio/notifications-service.git

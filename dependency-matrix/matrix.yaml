@@ -23,3 +23,9 @@ dependencies:
   url: https://github.com/cloudsmartio/gitprovider-sync-agent.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: cloudsmartio
+  repo: notifications-service
+  url: https://github.com/cloudsmartio/notifications-service.git
+  version: ""
+  versionURL: ""

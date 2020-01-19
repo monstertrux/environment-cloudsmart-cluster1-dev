@@ -6,3 +6,4 @@ Dependency | Sources | Version | Mismatched versions
 [cloudsmartio/application-root](https://github.com/cloudsmartio/application-root.git) |  | []() | 
 [cloudsmartio/agile-project-manager](https://github.com/cloudsmartio/agile-project-manager.git) |  | []() | 
 [cloudsmartio/gitprovider-sync-agent](https://github.com/cloudsmartio/gitprovider-sync-agent.git) |  | []() | 
+[cloudsmartio/notifications-service](https://github.com/cloudsmartio/notifications-service.git) |  | []() | 
