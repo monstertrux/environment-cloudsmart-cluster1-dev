@@ -17,3 +17,9 @@ dependencies:
   url: https://github.com/cloudsmartio/agile-project-manager.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: cloudsmartio
+  repo: gitprovider-sync-agent
+  url: https://github.com/cloudsmartio/gitprovider-sync-agent.git
+  version: ""
+  versionURL: ""

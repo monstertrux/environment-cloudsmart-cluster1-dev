@@ -1,0 +1,23 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  annotations:
+    jenkins.io/last-build-number-for-master: "3"
+  creationTimestamp: null
+  labels:
+    owner: cloudsmartio
+    provider: github
+    repository: gitprovider-sync-agent
+  name: cloudsmartio-gitprovider-sync-agent
+spec:
+  description: Imported application for cloudsmartio/gitprovider-sync-agent
+  httpCloneURL: https://github.com/cloudsmartio/gitprovider-sync-agent.git
+  org: cloudsmartio
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: gitprovider-sync-agent
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cloudsmartio/gitprovider-sync-agent.git
