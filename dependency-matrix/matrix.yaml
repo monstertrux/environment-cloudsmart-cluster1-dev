@@ -35,3 +35,9 @@ dependencies:
   url: https://github.com/cloudsmartio/agile-project-manager-composite.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: cloudsmartio
+  repo: authservice
+  url: https://github.com/cloudsmartio/authservice.git
+  version: ""
+  versionURL: ""
