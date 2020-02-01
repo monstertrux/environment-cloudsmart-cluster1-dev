@@ -29,6 +29,7 @@ environments:
       enabled: true
       production: true
   key: dev
+  repository: environment-cloudsmart-cluster1-dev
 - ingress:
     domain: ci.cloudsmart.io
     externalDNS: true
@@ -38,6 +39,7 @@ environments:
       enabled: true
       production: true
   key: staging
+  repository: environment-cloudsmart-cluster1-staging
 - ingress:
     domain: ""
     externalDNS: false
@@ -47,6 +49,7 @@ environments:
       enabled: false
       production: false
   key: production
+  repository: environment-cloudsmart-cluster1-production
 gitops: true
 ingress:
   cloud_dns_secret_name: external-dns-gcp-sa
