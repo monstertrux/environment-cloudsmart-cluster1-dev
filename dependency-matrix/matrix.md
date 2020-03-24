@@ -9,3 +9,4 @@ Dependency | Sources | Version | Mismatched versions
 [cloudsmartio/notifications-service](https://github.com/cloudsmartio/notifications-service.git) |  | []() | 
 [cloudsmartio/agile-project-manager-composite](https://github.com/cloudsmartio/agile-project-manager-composite.git) |  | []() | 
 [cloudsmartio/authservice](https://github.com/cloudsmartio/authservice.git) |  | []() | 
+[cloudsmartio/notifications-service-frontend](https://github.com/cloudsmartio/notifications-service-frontend.git) |  | []() | 
