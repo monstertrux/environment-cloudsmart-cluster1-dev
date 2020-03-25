@@ -41,3 +41,9 @@ dependencies:
   url: https://github.com/cloudsmartio/authservice.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: cloudsmartio
+  repo: notifications-service-frontend
+  url: https://github.com/cloudsmartio/notifications-service-frontend.git
+  version: ""
+  versionURL: ""
