@@ -53,3 +53,9 @@ dependencies:
   url: https://github.com/cloudsmartio/comments-service-frontend.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: cloudsmartio
+  repo: ui-sync-service
+  url: https://github.com/cloudsmartio/ui-sync-service.git
+  version: ""
+  versionURL: ""
