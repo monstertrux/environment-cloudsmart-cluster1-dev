@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cloudsmartio
+    provider: github
+    repository: ui-sync-service
+  name: cloudsmartio-ui-sync-service
+spec:
+  description: Imported application for cloudsmartio/ui-sync-service
+  httpCloneURL: https://github.com/cloudsmartio/ui-sync-service.git
+  org: cloudsmartio
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: ui-sync-service
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cloudsmartio/ui-sync-service.git

@@ -11,3 +11,4 @@ Dependency | Sources | Version | Mismatched versions
 [cloudsmartio/authservice](https://github.com/cloudsmartio/authservice.git) |  | []() | 
 [cloudsmartio/notifications-service-frontend](https://github.com/cloudsmartio/notifications-service-frontend.git) |  | []() | 
 [cloudsmartio/comments-service-frontend](https://github.com/cloudsmartio/comments-service-frontend.git) |  | []() | 
+[cloudsmartio/ui-sync-service](https://github.com/cloudsmartio/ui-sync-service.git) |  | []() | 
