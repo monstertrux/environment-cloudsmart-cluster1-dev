@@ -5,6 +5,6 @@ enableDocker: false
 pipelineUser:
   email: github@cloudsmart.io
   token: vault:cloudsmart-cluster1/pipelineUser:token
-  username: monstertrux
+  username: cloudsmartio
 prow:
   hmacToken: vault:cloudsmart-cluster1/prow:hmacToken
