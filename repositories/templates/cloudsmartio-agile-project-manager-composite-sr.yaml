@@ -6,14 +6,14 @@ metadata:
     jenkins.io/last-build-number-for-pr-1: "2"
   creationTimestamp: null
   labels:
-    owner: cloudsmartio
+    owner: monstertrux
     provider: github
     repository: agile-project-manager-composite
   name: cloudsmartio-agile-project-manager-composite
 spec:
-  description: Imported application for cloudsmartio/agile-project-manager-composite
-  httpCloneURL: https://github.com/cloudsmartio/agile-project-manager-composite.git
-  org: cloudsmartio
+  description: Imported application for monstertrux/agile-project-manager-composite
+  httpCloneURL: https://github.com/monstertrux/agile-project-manager-composite.git
+  org: monstertrux
   provider: https://github.com
   providerKind: github
   providerName: github
@@ -21,4 +21,4 @@ spec:
   scheduler:
     kind: ""
     name: ""
-  url: https://github.com/cloudsmartio/agile-project-manager-composite.git
+  url: https://github.com/monstertrux/agile-project-manager-composite.git

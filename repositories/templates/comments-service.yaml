@@ -10,4 +10,4 @@ spec:
   repositories:
   - apiVersion: jenkins.io/v1
     kind: SourceRepository
-    name: cloudsmartio/comments-service
+    name: monstertrux/comments-service

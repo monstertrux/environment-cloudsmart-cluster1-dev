@@ -5,14 +5,14 @@ metadata:
     jenkins.io/last-build-number-for-master: "3"
   creationTimestamp: null
   labels:
-    owner: cloudsmartio
+    owner: monstertrux
     provider: github
     repository: gitprovider-sync-agent
   name: cloudsmartio-gitprovider-sync-agent
 spec:
-  description: Imported application for cloudsmartio/gitprovider-sync-agent
-  httpCloneURL: https://github.com/cloudsmartio/gitprovider-sync-agent.git
-  org: cloudsmartio
+  description: Imported application for monstertrux/gitprovider-sync-agent
+  httpCloneURL: https://github.com/monstertrux/gitprovider-sync-agent.git
+  org: monstertrux
   provider: https://github.com
   providerKind: github
   providerName: github
@@ -20,4 +20,4 @@ spec:
   scheduler:
     kind: ""
     name: ""
-  url: https://github.com/cloudsmartio/gitprovider-sync-agent.git
+  url: https://github.com/monstertrux/gitprovider-sync-agent.git

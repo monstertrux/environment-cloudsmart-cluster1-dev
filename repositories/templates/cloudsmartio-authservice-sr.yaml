@@ -3,14 +3,14 @@ kind: SourceRepository
 metadata:
   creationTimestamp: null
   labels:
-    owner: cloudsmartio
+    owner: monstertrux
     provider: github
     repository: authservice
   name: cloudsmartio-authservice
 spec:
-  description: Imported application for cloudsmartio/authservice
-  httpCloneURL: https://github.com/cloudsmartio/authservice.git
-  org: cloudsmartio
+  description: Imported application for monstertrux/authservice
+  httpCloneURL: https://github.com/monstertrux/authservice.git
+  org: monstertrux
   provider: https://github.com
   providerKind: github
   providerName: github
@@ -18,4 +18,4 @@ spec:
   scheduler:
     kind: ""
     name: ""
-  url: https://github.com/cloudsmartio/authservice.git
+  url: https://github.com/monstertrux/authservice.git

@@ -1,61 +1,61 @@
 dependencies:
 - host: github.com
-  owner: cloudsmartio
+  owner: monstertrux
   repo: dex-client-poc
-  url: https://github.com/cloudsmartio/dex-client-poc.git
+  url: https://github.com/monstertrux/dex-client-poc.git
   version: ""
   versionURL: ""
 - host: github.com
-  owner: cloudsmartio
+  owner: monstertrux
   repo: application-root
-  url: https://github.com/cloudsmartio/application-root.git
+  url: https://github.com/monstertrux/application-root.git
   version: ""
   versionURL: ""
 - host: github.com
-  owner: cloudsmartio
+  owner: monstertrux
   repo: agile-project-manager
-  url: https://github.com/cloudsmartio/agile-project-manager.git
+  url: https://github.com/monstertrux/agile-project-manager.git
   version: ""
   versionURL: ""
 - host: github.com
-  owner: cloudsmartio
+  owner: monstertrux
   repo: gitprovider-sync-agent
-  url: https://github.com/cloudsmartio/gitprovider-sync-agent.git
+  url: https://github.com/monstertrux/gitprovider-sync-agent.git
   version: ""
   versionURL: ""
 - host: github.com
-  owner: cloudsmartio
+  owner: monstertrux
   repo: notifications-service
-  url: https://github.com/cloudsmartio/notifications-service.git
+  url: https://github.com/monstertrux/notifications-service.git
   version: ""
   versionURL: ""
 - host: github.com
-  owner: cloudsmartio
+  owner: monstertrux
   repo: agile-project-manager-composite
-  url: https://github.com/cloudsmartio/agile-project-manager-composite.git
+  url: https://github.com/monstertrux/agile-project-manager-composite.git
   version: ""
   versionURL: ""
 - host: github.com
-  owner: cloudsmartio
+  owner: monstertrux
   repo: authservice
-  url: https://github.com/cloudsmartio/authservice.git
+  url: https://github.com/monstertrux/authservice.git
   version: ""
   versionURL: ""
 - host: github.com
-  owner: cloudsmartio
+  owner: monstertrux
   repo: notifications-service-frontend
-  url: https://github.com/cloudsmartio/notifications-service-frontend.git
+  url: https://github.com/monstertrux/notifications-service-frontend.git
   version: ""
   versionURL: ""
 - host: github.com
-  owner: cloudsmartio
+  owner: monstertrux
   repo: comments-service-frontend
-  url: https://github.com/cloudsmartio/comments-service-frontend.git
+  url: https://github.com/monstertrux/comments-service-frontend.git
   version: ""
   versionURL: ""
 - host: github.com
-  owner: cloudsmartio
+  owner: monstertrux
   repo: ui-sync-service
-  url: https://github.com/cloudsmartio/ui-sync-service.git
+  url: https://github.com/monstertrux/ui-sync-service.git
   version: ""
   versionURL: ""

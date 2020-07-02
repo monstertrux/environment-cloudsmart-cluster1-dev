@@ -3,14 +3,14 @@ kind: SourceRepository
 metadata:
   creationTimestamp: null
   labels:
-    owner: cloudsmartio
+    owner: monstertrux
     provider: github
     repository: agile-project-manager
   name: cloudsmartio-agile-project-manager
 spec:
-  description: Imported application for cloudsmartio/agile-project-manager
-  httpCloneURL: https://github.com/cloudsmartio/agile-project-manager.git
-  org: cloudsmartio
+  description: Imported application for monstertrux/agile-project-manager
+  httpCloneURL: https://github.com/monstertrux/agile-project-manager.git
+  org: monstertrux
   provider: https://github.com
   providerKind: github
   providerName: github
@@ -18,4 +18,4 @@ spec:
   scheduler:
     kind: ""
     name: ""
-  url: https://github.com/cloudsmartio/agile-project-manager.git
+  url: https://github.com/monstertrux/agile-project-manager.git

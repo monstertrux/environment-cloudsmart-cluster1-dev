@@ -3,14 +3,14 @@ kind: SourceRepository
 metadata:
   creationTimestamp: null
   labels:
-    owner: cloudsmartio
+    owner: monstertrux
     provider: github
     repository: comments-service-frontend
   name: cloudsmartio-comments-service-frontend
 spec:
-  description: Imported application for cloudsmartio/comments-service-frontend
-  httpCloneURL: https://github.com/cloudsmartio/comments-service-frontend.git
-  org: cloudsmartio
+  description: Imported application for monstertrux/comments-service-frontend
+  httpCloneURL: https://github.com/monstertrux/comments-service-frontend.git
+  org: monstertrux
   provider: https://github.com
   providerKind: github
   providerName: github
@@ -18,4 +18,4 @@ spec:
   scheduler:
     kind: ""
     name: ""
-  url: https://github.com/cloudsmartio/comments-service-frontend.git
+  url: https://github.com/monstertrux/comments-service-frontend.git
