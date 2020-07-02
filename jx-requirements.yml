@@ -6,9 +6,9 @@ cluster:
   azure: {}
   clusterName: cloudsmart-cluster1
   devEnvApprovers:
-  - awaddell
-  - cloudsmartio
-  environmentGitOwner: cloudsmartio
+  - monstertrux
+  - codetestdeployrepeat
+  environmentGitOwner: monstertrux
   gitKind: github
   gitName: github
   gitServer: https://github.com
