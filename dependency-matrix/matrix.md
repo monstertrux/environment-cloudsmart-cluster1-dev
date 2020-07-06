@@ -2,13 +2,11 @@
 
 Dependency | Sources | Version | Mismatched versions
 ---------- | ------- | ------- | -------------------
-[cloudsmartio/dex-client-poc](https://github.com/cloudsmartio/dex-client-poc.git) |  | []() | 
-[cloudsmartio/application-root](https://github.com/cloudsmartio/application-root.git) |  | []() | 
-[cloudsmartio/agile-project-manager](https://github.com/cloudsmartio/agile-project-manager.git) |  | []() | 
-[cloudsmartio/gitprovider-sync-agent](https://github.com/cloudsmartio/gitprovider-sync-agent.git) |  | []() | 
-[cloudsmartio/notifications-service](https://github.com/cloudsmartio/notifications-service.git) |  | []() | 
-[cloudsmartio/agile-project-manager-composite](https://github.com/cloudsmartio/agile-project-manager-composite.git) |  | []() | 
-[cloudsmartio/authservice](https://github.com/cloudsmartio/authservice.git) |  | []() | 
-[cloudsmartio/notifications-service-frontend](https://github.com/cloudsmartio/notifications-service-frontend.git) |  | []() | 
-[cloudsmartio/comments-service-frontend](https://github.com/cloudsmartio/comments-service-frontend.git) |  | []() | 
-[cloudsmartio/ui-sync-service](https://github.com/cloudsmartio/ui-sync-service.git) |  | []() | 
+[monstertrux/application-root](https://github.com/monstertrux/application-root.git) |  | []() |
+[monstertrux/agile-project-manager](https://github.com/monstertrux/agile-project-manager.git) |  | []() |
+[monstertrux/gitprovider-sync-agent](https://github.com/monstertrux/gitprovider-sync-agent.git) |  | []() |
+[monstertrux/notifications-service](https://github.com/monstertrux/notifications-service.git) |  | []() |
+[monstertrux/authservice](https://github.com/monstertrux/authservice.git) |  | []() |
+[monstertrux/notifications-service-frontend](https://github.com/monstertrux/notifications-service-frontend.git) |  | []() |
+[monstertrux/comments-service-frontend](https://github.com/monstertrux/comments-service-frontend.git) |  | []() |
+[monstertrux/ui-sync-service](https://github.com/monstertrux/ui-sync-service.git) |  | []() |
