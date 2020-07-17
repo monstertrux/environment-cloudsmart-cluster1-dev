@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: monstertrux
+    provider: github
+    repository: email-service
+  name: monstertrux-email-service
+spec:
+  description: Imported application for monstertrux/email-service
+  httpCloneURL: https://github.com/monstertrux/email-service.git
+  org: monstertrux
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: email-service
+  scheduler:
+    kind: ""
+    name: ""
+  url: git@github.com:monstertrux/email-service.git
