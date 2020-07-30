@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: monstertrux
+    provider: github
+    repository: files-service
+  name: monstertrux-files-service
+spec:
+  description: Imported application for monstertrux/files-service
+  httpCloneURL: https://github.com/monstertrux/files-service.git
+  org: monstertrux
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: files-service
+  scheduler:
+    kind: ""
+    name: ""
+  url: git@github.com:monstertrux/files-service.git
