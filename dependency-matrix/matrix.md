@@ -13,3 +13,4 @@ Dependency | Sources | Version | Mismatched versions
 [monstertrux/email-service](https://github.com/monstertrux/email-service.git) |  | []() | 
 [monstertrux/cron-service](https://github.com/monstertrux/cron-service.git) |  | []() | 
 [monstertrux/files-service](https://github.com/monstertrux/files-service.git) |  | []() | 
+[monstertrux/google-pubsub-emulator](https://github.com/monstertrux/google-pubsub-emulator.git) |  | []() | 

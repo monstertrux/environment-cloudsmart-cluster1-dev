@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: monstertrux
+    provider: github
+    repository: google-pubsub-emulator
+  name: monstertrux-google-pubsub-emulator
+spec:
+  description: Imported application for monstertrux/google-pubsub-emulator
+  httpCloneURL: https://github.com/monstertrux/google-pubsub-emulator.git
+  org: monstertrux
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: google-pubsub-emulator
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/monstertrux/google-pubsub-emulator.git
