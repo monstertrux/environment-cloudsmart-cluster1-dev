@@ -1,6 +1,5 @@
 init:
-	cat /builder/home/.helm/repository/repositories.yaml
-	helm init --client-only
+	helm init --client-only --stable-repo-url https://charts.helm.sh/stable
 	helm repo add jenkins-x https://storage.googleapis.com/chartmuseum.jenkins-x.io
 	helm repo add bitnami https://charts.bitnami.com/bitnami
 	helm repo add stable https://charts.helm.sh/stable
