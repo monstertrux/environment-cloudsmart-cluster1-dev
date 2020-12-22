@@ -1,8 +1,8 @@
 init:
-	helm init --client-only --skip-repos
+	helm repo rm stable
+	helm init --client-only
 	helm repo add jenkins-x https://storage.googleapis.com/chartmuseum.jenkins-x.io
 	helm repo add bitnami https://charts.bitnami.com/bitnami
-	helm repo rm stable
 	helm repo add stable https://charts.helm.sh/stable
 
 build: clean init
